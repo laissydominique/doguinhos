@@ -31,11 +31,7 @@ async function trazDados() {
     </div>
 
     <div v-if="!img.error" class="dog">
-      <img
-
-        :src="img.dado.doguinho"
-        alt="O doguinho irá aparecer aqui"
-      />
+      <img :src="img.dado.doguinho" alt="O doguinho irá aparecer aqui" />
     </div>
 
     <div class="error">
@@ -46,6 +42,4 @@ async function trazDados() {
   </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
